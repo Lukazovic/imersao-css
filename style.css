@@ -14,6 +14,18 @@ body {
   /* background by SVGBackgrounds.com */
 }
 
+@media (min-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    font-size: 22px;
+  }
+}
+
 header {
   height: 100vh;
   display: flex;
@@ -70,13 +82,87 @@ a:hover {
 
 .portfolio {
   padding: 2em;
-}
-
-.img-portfolio {
-  height: 10rem;
-  width: 10rem;
+  height: 100vh;
+  text-align: center;
 }
 
 .portfolio h2 {
   font-family: "Balsamiq Sans", cursive;
+  margin-bottom: 1.5em;
+  font-size: 2em;
+}
+
+/* .portfolio .grid {
+  display: grid;
+  justify-content: center;
+  gap: 2em;
+  grid-template-columns: 240px;
+}
+
+@media (min-width: 560px) {
+  .portfolio .grid {
+    grid-template-columns: 240px 240px;
+  }
+}
+@media (min-width: 880px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(3, 240px);
+  }
+}
+
+.portfolio figure {
+  text-align: center;
+}
+
+.img-portfolio {
+  width: 10rem;
+  height: auto;
+  max-width: 1366px;
+  max-height: auto;
+  object-fit: cover;
+} */
+
+.portfolio .grid {
+  display: grid;
+  justify-content: center;
+  gap: 2em;
+  width: 100%;
+  grid-template-columns: 90%;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 880px) {
+  .portfolio .grid {
+    grid-template-columns: repeat(2, 45%);
+  }
+}
+
+.portfolio figure {
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+.portfolio figure figcaption {
+  font-weight: bold;
+}
+
+.portfolio figure .description {
+  font-size: 0.75em;
+  margin-top: 0.5rem;
+  text-align: justify;
+}
+
+.portfolio figure .link {
+  font-weight: bold;
+  font-size: 0.75em;
+  text-align: start;
+  margin-top: 0.5rem;
+}
+
+.img-portfolio {
+  width: 100%;
+  height: auto;
+  max-width: 1366px;
+  max-height: auto;
+  object-fit: cover;
 }
