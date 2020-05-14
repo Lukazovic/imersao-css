@@ -58,11 +58,25 @@ a:hover {
   text-align: center;
 }
 
+.site-title {
+  font-size: 4em;
+  font-family: "Caveat", cursive;
+}
+
 .site-subtitle {
   font-style: italic;
+  font-family: "Balsamiq Sans", cursive;
+}
+
+.portfolio {
+  padding: 2em;
 }
 
 .img-portfolio {
   height: 10rem;
   width: 10rem;
+}
+
+.portfolio h2 {
+  font-family: "Balsamiq Sans", cursive;
 }
