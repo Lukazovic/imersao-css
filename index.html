@@ -16,42 +16,79 @@
       <nav class="menu">
         <ul>
           <li><a href="#">Sobre</a></li>
-          <li><a href="#">Portfólio</a></li>
+          <li><a href="#">Projetos</a></li>
           <li><a href="#">Contato</a></li>
         </ul>
       </nav>
       <div>
         <h1 class="site-title">Lucas Vieira</h1>
-        <h2 class="site-subtitle">Jr. Web Developer</h2>
+        <h2 class="site-subtitle">Web Developer</h2>
       </div>
     </header>
 
     <section class="portfolio">
       <h2>Projetos Pessoais</h2>
-      <figure>
-        <img
-          class="img-portfolio"
-          src="./img/color-palettes-app.png"
-          alt="Color Palettes"
-        />
-        <figcaption>Color Palettes</figcaption>
-      </figure>
-      <figure>
-        <img
-          class="img-portfolio"
-          src="./img/dev-connector.png"
-          alt=">DevConnector"
-        />
-        <figcaption>DevConnector</figcaption>
-      </figure>
-      <figure>
-        <img
-          class="img-portfolio"
-          src="./img/taskmanager-api.png"
-          alt="Task Manager API"
-        />
-        <figcaption>Task Manager API</figcaption>
-      </figure>
+      <div class="grid">
+        <figure>
+          <img
+            class="img-portfolio"
+            src="./img/color-palettes-app.png"
+            alt="Color Palettes"
+          />
+          <figcaption>Color Palettes</figcaption>
+          <p class="description">
+            This is a project I've made to learn React. A clone of websites like
+            Flat UI Colors and Material UI Colors. It was important so I managed
+            to learn patterns to deal in a big project with React and how to
+            make a Responsive App.
+          </p>
+          <p class="link">
+            Link:
+            <a href="https://color-palettes-react-app.now.sh" target="_blank"
+              >https://color-palettes-react-app.now.sh</a
+            >
+          </p>
+        </figure>
+        <figure>
+          <img
+            class="img-portfolio"
+            src="./img/dev-connector.png"
+            alt=">DevConnector"
+          />
+          <figcaption>DevConnector</figcaption>
+          <p class="description">
+            This is a MERN stack application. It is a small social network app
+            that includes authentication, profiles and forum posts.
+          </p>
+          <p class="link">
+            Link:
+            <a href="https://github.com/Lukazovic/DevConnector" target="_blank"
+              >https://github.com/Lukazovic/DevConnector</a
+            >
+          </p>
+        </figure>
+        <figure>
+          <img
+            class="img-portfolio"
+            src="./img/taskmanager-api.png"
+            alt="Task Manager API"
+          />
+          <figcaption>Task Manager API</figcaption>
+          <p class="description">
+            A Backend RESTful API to store and organize your tasks. It is a
+            secure API because it does not let other users acess your tasks by
+            authenticate all users.
+          </p>
+          <p class="link">
+            Link:
+            <a
+              href="https://github.com/Lukazovic/node-task-manager-api"
+              target="_blank"
+              >https://github.com/Lukazovic/node-task-manager-api</a
+            >
+          </p>
+        </figure>
+      </div>
     </section>
   </body>
 </html>
