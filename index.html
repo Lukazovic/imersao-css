@@ -6,32 +6,52 @@
     <title>Lucas Vieira</title>
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link
       href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Caveat:wght@400;700&family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/b4817af6fd.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header>
+    <header id="home">
       <nav class="menu">
         <ul>
-          <li><a href="#">Sobre</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="#">Contato</a></li>
+          <li><a href="#home">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li>
+            <div class="icons">
+              <a target="_blank" href="https://github.com/Lukazovic">
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/lucas-vieira-90658619b/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:lucas10.vieira.lv@gmail.com">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </li>
         </ul>
       </nav>
-      <div>
+      <div class="site-home">
         <h1 class="site-title">Lucas Vieira</h1>
         <h2 class="site-subtitle">Web Developer</h2>
       </div>
     </header>
 
-    <section class="portfolio">
-      <h2>Projetos Pessoais</h2>
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
       <div class="grid">
         <figure>
           <img
-            class="img-portfolio"
+            class="img-projects"
             src="./img/color-palettes-app.png"
             alt="Color Palettes"
           />
@@ -51,7 +71,7 @@
         </figure>
         <figure>
           <img
-            class="img-portfolio"
+            class="img-projects"
             src="./img/dev-connector.png"
             alt=">DevConnector"
           />
@@ -69,7 +89,7 @@
         </figure>
         <figure>
           <img
-            class="img-portfolio"
+            class="img-projects"
             src="./img/taskmanager-api.png"
             alt="Task Manager API"
           />
