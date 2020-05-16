@@ -146,7 +146,7 @@ a:hover {
 
 .about h2,
 .projects h2 {
-  font-family: "Balsamiq Sans", cursive;
+  font-family: "Roboto", sans-serif;
   margin-top: 0.3em;
   margin-bottom: 1.5em;
   font-size: 2em;
@@ -241,4 +241,8 @@ a:hover {
 
 .img-projects:hover {
   transform: scale(1.05);
+}
+
+.bethehero img {
+  box-shadow: none;
 }
