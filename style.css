@@ -34,21 +34,6 @@ header {
   flex-direction: column;
 }
 
-.home-footer {
-  position: absolute;
-  bottom: 0;
-  font-size: 3em;
-  margin-bottom: 0.5em;
-  opacity: 0;
-  animation: ease-in-out 3s home-footer-animation forwards;
-}
-
-@keyframes home-footer-animation {
-  100% {
-    opacity: 1;
-  }
-}
-
 .menu {
   background-color: rgba(0, 0, 0, 0.6);
   font-weight: bold;
@@ -104,10 +89,27 @@ a:hover {
   }
 }
 
+.home-footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 3em;
+  text-shadow: 1px 1px 10px black;
+  margin-bottom: 0.5em;
+  opacity: 0;
+  animation: ease-in-out 3s home-footer-animation forwards;
+}
+
+@keyframes home-footer-animation {
+  100% {
+    opacity: 1;
+  }
+}
+
 .site-title,
 .site-subtitle {
   color: white;
   text-align: center;
+  text-shadow: 1px 1px 20px black;
 }
 
 .site-title {
@@ -147,6 +149,7 @@ a:hover {
   margin-top: 0.3em;
   margin-bottom: 1.5em;
   font-size: 2em;
+  text-shadow: 1px 1px 20px black;
 }
 
 .about a,
