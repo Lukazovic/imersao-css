@@ -171,7 +171,13 @@ a:hover {
 
 @media (min-width: 370px) {
   .about .avatar img {
-    width: 100%;
+    width: 75%;
+  }
+}
+
+@media (max-width: 370px) {
+  .about .avatar img {
+    width: 75%;
   }
 }
 
