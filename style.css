@@ -24,6 +24,21 @@ body {
   body {
     font-size: 22px;
   }
+}body::-webkit-scrollbar {
+  width: 0.3rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: rgba(0, 255, 255, 0.479);
+}
+
+body::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb:active {
+  background: aqua;
 }
 
 header {
