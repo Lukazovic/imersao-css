@@ -30,7 +30,7 @@ You can use the App in this site: https://imersao-css-resume.now.sh/
 
 #### Locally
 
-- Clone the project: `git clone https://github.com/Lukazovic/color-palettes-react-app.git`;
+- Clone the project: `git clone https://github.com/Lukazovic/imersao-css.git`;
 - Double click in the index.html file.
 
 It will open a browser page.
